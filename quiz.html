@@ -1,0 +1,122 @@
+<ht!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Biologuia</title>
+    <script src="pet_cursor.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="imagens/icons8-leaf-24.png">
+    <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body onload="startPetCursor()">
+
+  <div class="cabecalho">
+
+    <header id=num1>
+        <h1>Biologuia!</h1>
+        <h2>O seu guia sobre biologia</h2>
+    </header>
+    <nav>
+        <ul >
+          <li><a href="index.html">Página inicial</a></li>
+          <li><a href="Citologia.html">Citologia</a></li>
+          <li><a href="botanica.html">Botânica</a></li>
+          <li><a href="ecologia.html">Ecologia</a></li>
+          <li><a href="evolucao.html">Evolução</a></li>
+          <li><a href="fisiologia.html">Fisiologia</a></li>
+          <li><a href="histologia.html">Histologia</a></li>
+          <li><a href="microbiologia.html">Microbiologia</a></li>
+          <li><a href="zoologia.html">Zoologia</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+          <li><a href="referências.html">Referências</a></li>
+            <li> <form id="divBusca">
+              <input type="search" id="txtBusca" placeholder="Digite e clique no botão para procurar ..." list="buscas"/>
+              <button type="button" id="botao"> 🔍</button>
+                <datalist id="buscas">
+                  <option value="Botânica"></option>
+                  <option value="Ecologia"></option>
+                  <option value="Zoologia"></option>
+                  <option value="Microbiologia"></option>
+                </datalist>
+                </form></li>
+        </ul>
+    </nav>
+    </div>
+    <main class="quiz">
+
+      <button id="iniciar" type="button" name="button">INICIAR QUIZ</button>
+
+      <div id="aba1" class="escondido" action="index.html" method="post">
+        <h2 class="perguntinhas">Qual dos Exemplos a Baixo é uma planta Gimnospermas?</h2>
+        <input id="p1" type="radio" name="p1" value="Grama">
+        <label for="p1">Grama</label>
+        <input id="p1" type="radio" name="p1" value="Cycas">
+        <label for="p1">Cycas</label>
+        <input id="p1" type="radio" name="p1" value="Roseira">
+        <label for="p1">Roseira</label>
+        <input id="p1" type="radio" name="p1" value="Bananeira">
+        <label for="p1">Bananeira</label>
+      </div>
+
+      <div id="aba2" class="escondido" action="index.html" method="post">
+        <h2 class="perguntinhas">O hábito de colocar argolas no pescoço, 
+          por parte das mulheres de algumas tribos asiáticas, promove o crescimento desta estrutura, representando nestas comunidades um sinal de beleza.
+           Desta forma temos que as crianças, filhos destas mulheres já nasceriam com pescoço maior, visto que esta é uma tradição secular.<br>
+           A afirmação acima pode ser considerada como defensora de qual teoria evolucionista:
+        </h2>
+        <input id="p2" type="radio" name="p2" value="Teoria de Lamarck">
+        <label for="p2">Teoria de Lamarck</label>
+        <input id="p2" type="radio" name="p2" value="Teoria de Malthus">
+        <label for="p2">Teoria de Malthus</label>
+        <input id="p2" type="radio" name="p2" value="Teoria de Wallace">
+        <label for="p2">Teoria de Wallace</label>
+        <input id="p2" type="radio" name="p2" value="Teoria de Darwin">
+        <label for="p2">Teoria de Darwin</label>
+      </div>
+
+      <div id="aba3" class="escondido" action="index.html" method="post">
+        <h2 class="perguntinhas">Realiza um conjunto de reações químicas que permite a sobrevivência da célula </h2>
+        <input id="p3" type="radio" name="p3" value="ADN/DNA">
+        <label for="p3">ADN/DNA</label>
+        <input id="p3" type="radio" name="p3" value="Fase G0 da Interfase">
+        <label for="p3">Fase G0 da Interfase</label>
+        <input id="p3" type="radio" name="p3" value="Citoplasma">
+        <label for="p3">Citoplasma</label>
+        <input id="p3" type="radio" name="p3" value="Cloroplastos">
+        <label for="p3">Cloroplastos</label>
+      </div>
+
+      <div id="aba4" class="escondido" action="index.html" method="post">
+        <h2 class="perguntinhas">Conforme seus estudos , qual é a alternativa INCORRETA sobre a célula Eucarionte?</h2>
+        <input id="p4" type="radio" name="p4" value="Possui núcleo">
+        <label for="p4">Possui núcleo</label>
+        <input id="p4" type="radio" name="p4" value="Várias organelas">
+        <label for="p4">Várias organelas</label>
+        <input id="p4" type="radio" name="p4" value="É apenas multicelular">
+        <label for="p4">É apenas multicelular</label>
+        <input id="p4" type="radio" name="p4" value="Possui ribossomos">
+        <label for="p4">Possui ribossomos</label>
+      </div>
+
+      <div>
+        <button  id="setinhaquiz" class="escondido"> -> </button>
+      </div>
+
+    
+      
+     
+      <br><h3 id="titulopontuacao" class="escondido">PONTUAÇÃO</h3></br>
+      <br><p id="pontuacao" class="escondido"></p></br>
+        
+      <br><button id="reiniciar" class="escondido" type="button" name="button">REINICIAR QUIZ</button></br>
+
+    </main>
+    
+</body>
+<script src="quiz.js"></script>
+<script src="busca.js"></script>
+<script src="folinha.js"></script>
+
+</html>

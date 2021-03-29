@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Biologuia</title>
+    <script src="pet_cursor.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="imagens/icons8-leaf-24.png">
+    <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body onload="startPetCursor()">
+  
+  <div class="cabecalho">
+
+    <header id=num1>
+        <h1>Biologuia!</h1>
+        <h2>O seu guia sobre biologia</h2>
+    </header>
+    <nav>
+        <ul >
+          <li><a href="index.html">Página inicial</a></li>
+          <li><a href="Citologia.html">Citologia</a></li>
+          <li><a href="botanica.html">Botânica</a></li>
+          <li><a href="ecologia.html">Ecologia</a></li>
+          <li><a href="evolucao.html">Evolução</a></li>
+          <li><a href="fisiologia.html">Fisiologia</a></li>
+          <li><a href="histologia.html">Histologia</a></li>
+          <li><a href="microbiologia.html">Microbiologia</a></li>
+          <li><a href="zoologia.html">Zoologia</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+          <li><a href="referências.html">Referências</a></li>
+            <li> <form id="divBusca">
+              <input type="search" id="txtBusca" placeholder="Digite e clique no botão para procurar ..." list="buscas"/>
+              <button type="button" id="botao"> 🔍</button>
+                <datalist id="buscas">
+                  <option value="Palavra chave"></option>
+                  <option value="Tema "></option>
+                  <option value="Termo específico"></option>
+                </datalist>
+                </form></li>
+        </ul>
+    </nav>
+    </div>
+    <main>
+      <article>
+          <h1>evolução</h1>
+        <dd>
+  Evolução é o processo de mudança e adaptação dos seres
+vivos às modificações ocorridas no meio ambiente com passar do tempo.
+A ideia de evolução como recurso biológico começou
+a ser discutida no século XVIII, pois até então
+acreditava-se na teoria do criacionismo.
+Esta dizia que um ser divino tinha criado
+todas as espécies e as manteve imutáveis.
+Entretanto, na segunda metade do século XIX,
+entrou em cena a teoria de que todos os organismos
+dividem o mesmo ancestral no mundo,
+sendo o ciclo evolutivo uma junção de transformações
+lentas rumo às novas variedades de espécies.
+</dd><br>
+<dt>Teorias Evolucionistas </dt><br>
+<dt>Lamarck</dt>
+<dd>
+O biólogo francês Jean-Baptiste Lamarck formulou uma
+das primeiras teorias sobre a evolução dos seres vivos.
+Para explicar, sugeriu duas leis: a Lei do Uso
+e Desuso e a Lei da Transmissão dos Caracteres Adquiridos.
+A Lei do Uso e Desuso pontua que quando uma espécie utiliza determinada
+parte do corpo com maior intensidade, essa parte se desenvolve
+ainda mais que as outras. Já as partes que não são tão usadas
+podem sofrer atrofiamentos e até desaparecer.
+</dd><br>
+<dt>Darwin</dt>
+<dd>
+Criada pelos naturalistas Charles Darwin e Alfred Russel Wallace,
+essa ideia evolucionista acredita que as espécies vivem em constante
+luta pela adaptação, sobrevivendo apenas os mais fortes e capazes de se reproduzir.
+Apesar do conceito de seleção natural ser aceito e estudado pela biologia,
+não consegue explicar quais os atributos deixam determinadas espécies
+mais fortes e adaptáveis, e como são transmitidas para os descendentes.
+Essa explicação apenas surge com os estudos sobre genética.
+</dd><br>
+</article>
+<img id="evolução" src="imagens/evolucao.png" alt=""><br>
+    </main>
+      <a id="setinha" href="#num1">🔝</a>
+      <script src="busca.js"></script>
+</body>
+<script src="folinha.js"></script>
+</html>

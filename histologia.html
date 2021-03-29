@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Biologuia</title>
+    <script src="pet_cursor.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="imagens/icons8-leaf-24.png">
+    <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body onload="startPetCursor()">
+  <div class="cabecalho">
+
+    <header id=num1>
+        <h1>Biologuia!</h1>
+        <h2>O seu guia sobre biologia</h2>
+    </header>
+    <nav>
+        <ul>
+          <li><a href="index.html">Página inicial</a></li>
+          <li><a href="Citologia.html">Citologia</a></li>
+          <li><a href="botanica.html">Botânica</a></li>
+          <li><a href="ecologia.html">Ecologia</a></li>
+          <li><a href="evolucao.html">Evolução</a></li>
+          <li><a href="fisiologia.html">Fisiologia</a></li>
+          <li><a href="histologia.html">Histologia</a></li>
+          <li><a href="microbiologia.html">Microbiologia</a></li>
+          <li><a href="zoologia.html">Zoologia</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+          <li><a href="referências.html">Referências</a></li>
+          <li> <form id="divBusca">
+              <input type="search" id="txtBusca" placeholder="Digite e clique no botão para procurar ..." list="buscas"/>
+              <button type="button" id="botao"> 🔍</button>
+              <datalist id="buscas">
+                <option value="Teste1"></option>
+                <option value="Teste2"></option>
+                <option value="Teste3"></option>
+            </datalist>
+          </form></li>
+        </ul>
+    </nav>
+    </div>
+    <main>
+    <h1>histologia</h1>
+    <article>
+    <dd>
+Histologia é uma área biomédica que estuda os tecidos biológicos.
+Na biologia são estudados tecidos animais e de plantas
+(histologia animal e vegetal, respectivamente),
+analisando sua estrutura, origem e diferenciação.
+Na área da saúde, a histologia humana permite realizar diagnósticos
+de diversas doenças a partir de estudos comparativos entre tecidos saudáveis e doentes.
+    </dd><br>
+    <h2>Histologia Humana</h2><br>
+    <dd>
+Os tecidos do corpo humano são formados por tipos
+celulares semelhantes que possuem funções específicas.
+Por exemplo, na pele a camada mais externa (epiderme)
+é constituída de tecido epitelial. As células são achatadas
+na superfície e cúbicas mais internamente, protegem de ressecamento
+e entrada de invasores.
+Abaixo da epiderme, a derme é formada de tecido conjuntivo denso, rico em fibras
+de colágeno que dão flexibilidade.
+    </dd><br>
+  </article>
+  <img id="histologia" src="imagens/histologia.png" alt="">
+    <a id="setinha" href="#num1">🔝</a>
+</main>
+<script src="busca.js"></script>
+</body>
+<script src="folinha.js"></script>
+</html>

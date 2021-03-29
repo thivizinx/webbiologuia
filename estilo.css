@@ -1,0 +1,390 @@
+html
+{
+    background-image: url("imagens/fundo.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: Turret road;
+
+}
+
+main{
+  background-color: rgba(0, 0, 0, 0.7);
+  color : lightgray;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  line-height: 15px;
+  display: grid;
+  grid-template-columns:500px 300px;
+}
+header
+{
+    font-size: 40px;
+}
+#num1
+{
+    text-decoration: underline;
+    text-align: center;
+}
+h1{
+  line-height: 45px;
+}
+a:active{
+  position: relative;
+  top: -1px;
+  left: -1px;
+}
+nav li
+{
+    margin-right: 5px;
+    display: inline-block;
+    list-style: none;
+}
+nav
+{
+
+    font-size: 13px;
+}
+a
+{
+    text-decoration: none;
+    color: rgb(34, 104, 34);
+}
+a:visited
+{
+    color: lightgreen;
+}
+
+dt{
+    text-decoration: underline;
+    display: inline-block;
+    line-height: 30px;
+}
+dd{
+  margin-left: 0px;
+  line-height: 20px;
+}
+
+#num1{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.floema{
+  width: 200px;
+  height: 200px;
+  grid-column: 2/2;
+}
+article{
+  grid-column: 1/1;
+}
+#setinha{
+display: block;
+position: fixed;
+width: 250px;
+height: 250px;
+left: 80%;
+top: 95%;
+bottom: 95%;
+right: 50%;
+}
+
+/* mini pagina no botanica html*/
+.pagininha{
+color: green;
+position: absolute;
+background-image: url("imagens/pagininha4.gif");
+width: 300px;
+height: 250px;
+float: right;
+margin-top: -208%;
+left: -250px;
+transition: left 250ms ease-out;
+font-weight: bold;
+}
+
+.pagininha:hover{
+  left: 0;
+}
+.pagininha h1
+{
+  margin-bottom: 10px;
+}
+.pagininha p
+{
+  margin-top: 5px;
+}
+
+/* mini pagina no ecologia html*/
+.pgeco{
+  color: green;
+  background-image: url("imagens/pagininha3.gif");
+  position: absolute;
+  background-color: white;
+  width: 250px;
+  height: 250px;
+  float: right;
+  margin-top: 0%;
+  left: -200px;
+  transition: left 250ms ease-out;
+  font-weight: bold;
+}
+.pgeco:hover{
+  left:0;
+}
+.pgeco h1
+{
+  margin-bottom: 10px;
+}
+.pgeco p
+{
+  margin-top: 5px;
+}
+/* mini pagina no referencias html*/
+.pgref{
+  color: green;
+  background-image: url("imagens/pagininha5.gif");
+  position: absolute;
+  background-color: white;
+  width: 250px;
+  height: 250px;
+  float: right;
+  margin-top: -300px;
+  left: -200px;
+  transition: left 250ms ease-out;
+  font-weight: bold;
+
+}
+.pgref:hover{
+  left:0;
+}
+.pgref h1
+{
+  margin-bottom: 10px;
+}
+.pgref p
+{
+  margin-top: 5px;
+}
+
+
+/*mini pagina na pagina inicial*/
+.pginicial{
+  background-image: url("imagens/pagininha2.gif");
+  position: absolute;
+  font-size: 13px;
+  color: white;
+  width: 250px;
+  height: 250px;
+  float: right;
+  margin-top: -26%;
+ 
+  left: -200px;
+  transition: left 250ms ease-out;
+  font-weight: bold;
+}
+.pginicial:hover{
+  left:0;
+}
+.cabecalho{
+  background-color: rgba(0, 0, 0, 0.7);
+  color : lightgray;
+  width: 900px;
+  height: 270px;
+  padding-left: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*
+localização das imagens
+*/
+#img1{
+  margin-top: 30%;
+}
+#img2{
+  margin-top: 31%;
+}
+#img3{
+  margin-top: 6%;
+}
+#img4{
+  width: 250px;
+  height: 250px;
+  margin-top: 80%;
+}
+#img5{
+  width: 300px;
+  height: 300px;
+  margin-top: -100%;
+}
+#img11{
+  margin-top: 10%;
+}
+#mateus
+{
+  margin-left: 50px;
+  height: 0150px;
+}
+#divBusca{
+  margin-top: 20px;
+  float: right;
+  margin-left: 550px;
+  background-color:rgb(14 38 14);;
+  border:solid 1px;
+  border-radius:15px;
+  width:300px;
+  height: 35px;
+}
+#botao
+{
+  font-size: 2 px;
+  border-color:white;
+  float:right;
+  height:32px;
+  border-radius:15px 15px 15px 15px;
+  width:70px;
+  font-weight:bold;
+  background:rgb(26, 56, 26);
+}
+
+#txtBusca{
+  color: lightgray;
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-style:italic;
+  font-size:15px;
+  border:none;
+  height:32px;
+  width:300px;
+}
+
+.easter-egg{
+  background-image: url('imagens/paginacam.gif');
+  position: absolute;
+  font-size: 13px;
+  color: white;
+  width: 250px;
+  height: 250px;
+  float: right;
+  margin-top: -26%;
+  right: -200px;
+  transition: right 250ms ease-out;
+  font-weight: bold;
+  }
+  .easter-egg:hover{
+  right:0;
+  }
+
+#camila{
+  width:100px;
+  height:100px;
+  margin-left:75px;
+}
+#celula-de-deus{
+  top:230px;
+  margin-bottom: 20%;
+  height: 250px;
+  width: 250px;
+}
+#evolução , #fisiologia
+{
+  margin-top: 100px;
+  margin-left: 70px;
+}
+#ciencia{
+  width: 200px;
+  height: 200px;
+}
+.vetor-de-imagens{
+  margin-top: 70px;
+  margin-left: 293px;
+}
+.botoes{
+  display: inline-block;
+ height:50px;
+ width:100px;
+ font-family: Turret road;
+ color: white;
+ background-color: black;
+}
+#ir{
+  background-image: url("imagens/seta-direita.png");
+}
+#voltar{
+    background-image: url("imagens/seta-esquerda.png");
+}
+
+.escondido{
+  display:none;
+}
+
+#setinhaquiz{
+  border-radius: 50%;
+  color:black;
+  background-color: green;
+  box-shadow: 0 0 1em gray;
+}
+
+.perguntinhas{
+  text-align: justify;
+  line-height: 1;
+}
+
+#iniciar{
+  background-color:rgb(26, 56, 26);
+  color:rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 1em gray;
+}
+
+#reiniciar{
+  background-color:rgb(26, 56, 26);
+  color:rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 1em gray;
+  padding-top: 0px;
+  height: 20px;
+}
+
+#titulopontuacao{
+  padding-right: 0px;
+  padding-left: 0px;
+  margin: 0px;
+}
+
+.bott{
+  padding: 10px;
+  display: inline-block;
+  position: absolute;
+  font-size: 13px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  height: 40px;
+  width: 200px;
+}
+.bott:hover{
+  background: darkolivegreen;
+}
+.modal{
+  width: 250px;
+  height: 300px;
+  position: absolute;
+  display: none;
+  font-size: 13px;
+  color: white;
+  background-color: black;
+  font-size: 17px;
+}
+.fechar{
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  float: right;
+
+}
+.cr{
+  color:white;
+}

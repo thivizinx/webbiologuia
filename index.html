@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Biologuia</title>
+    <script src="pet_cursor.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="imagens/icons8-leaf-24.png">
+    <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body onload="startPetCursor()">
+
+  <div class="cabecalho">
+
+    <header id=num1>
+        <h1>Biologuia!</h1>
+        <h2>O seu guia sobre biologia</h2>
+    </header>
+    <nav>
+        <ul >
+          <li><a href="index.html">Página inicial</a></li>
+          <li><a href="Citologia.html">Citologia</a></li>
+          <li><a href="botanica.html">Botânica</a></li>
+          <li><a href="ecologia.html">Ecologia</a></li>
+          <li><a href="evolucao.html">Evolução</a></li>
+          <li><a href="fisiologia.html">Fisiologia</a></li>
+          <li><a href="histologia.html">Histologia</a></li>
+          <li><a href="microbiologia.html">Microbiologia</a></li>
+          <li><a href="zoologia.html">Zoologia</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+          <li><a href="referências.html">Referências</a></li>
+            <li> <form id="divBusca">
+              <input type="search" id="txtBusca" placeholder="Digite e clique no botão para procurar ..." list="buscas"/>
+              <button type="button" id="botao"> 🔍</button>
+                <datalist id="buscas">
+                  <option value="Exemplos:"></option>
+                  <option value="Botânica"></option>
+                  <option value="Ecologia"></option>
+                  <option value="Zoologia"></option>
+                  <option value="Microbiologia"></option>
+                </datalist>
+                </form></li>
+        </ul>
+    </nav>
+    </div>
+    <main>
+
+      <div class="vetor-de-imagens">
+        <img id="ciencia"src="imgs-vetor/cienciastec.png" alt="">
+        <button class="botoes" id="voltar" >anterior</button>
+        <button class="botoes" id="ir">proximo</button>
+      </div>
+
+    <article>
+        <h1>Autores</h1>
+        <ul>
+            <li>
+                Mateus Souza Barreto <!-- inserir imagem aqui -->
+            </li>
+            <li>
+                Igor Lucas Assunção Ribas <!-- inserir imagem aqui -->
+            </li>
+            <li>
+                Thiago Henrique Lacerda Ferreira <!-- inserir imagem aqui -->
+            </li>
+            <li>
+              Camila Stéfany
+            </li>
+        </ul>
+    </article>
+    <article>
+        <h1>Temas</h1>
+        <p>
+            <ul>
+              <li>
+                Biologia Celular
+              </li>
+                <li>
+                    Botânica
+                </li>
+                <li>
+                    Ecologia
+                </li>
+                <li>
+                    Evolução
+                </li>
+                <li>
+                   Fisiologia
+                </li>
+                <li>
+                    Histologia
+                </li>
+                <li>
+                   Microbiologia
+                </li>
+                <li>
+                   Zoologia
+                </li>
+
+            </ul>
+        </p>
+    </article>
+
+
+    </main>
+    </div>
+    <div class="pginicial">
+      <h1>
+        Curiosidade!
+      </h1>
+      <p>
+        A parte mais complicada do trabalho foi o javascript , tivemos que fazer muitas pesquisas para que
+        fosse possível fazer algo de qualidade.
+      </p>
+    <p>
+      Os arquivos de exercícios anteriores foram de grande utilidade , poder entender na prática como a
+      linguagem funciona é algo muito útil !
+    </p>
+
+    </div>
+
+
+   <div class="easter-egg">
+ <p>
+    Camila
+ </p>
+ <img id="camila" src="imagens/cam.jpg" alt="">
+   <p>
+     Dica: aperte shift "+" e veja a magia acontecer >//<...
+   </p>
+    </div>
+    <div onclick="acao()" class="bott">
+      <p>Entre em contato com os desenvolvedores :D</p>
+    </div>
+      <div class="modal">
+        <div onclick="fechar()" class="fechar"></div>
+        <p class="cr">Thiago Henrique</p><br>
+        <p class="cr">Igor : igorlucas1217@gmail.com</p><br>
+        <p class="cr">Mateus : mateussb31@yahoo.com.br</p><br>
+        <p class="cr">Camila : camillastefany22@gmail.com</p><br>
+      </div>
+
+</body>
+<script src="busca.js"></script>
+<script src="folinha.js"></script>
+<script src="galeria.js"></script>
+<script src="janela_modal.js"></script>
+
+</html>
